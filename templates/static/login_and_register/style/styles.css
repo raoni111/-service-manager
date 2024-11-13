@@ -1,3 +1,25 @@
-h1 {
-    color: red;
+@import url('../../global/style/variables.css');
+
+.login-and-register-main {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.login-and-register-main .login-and-register-form-content {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    height: 700px;
+}
+
+.login-and-register-main .login-and-register-form-content .information-content {
+    position: absolute;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.login-and-register-main .login-and-register-form-content .information-content.info-pos-left {
+    right: 50%;
 }

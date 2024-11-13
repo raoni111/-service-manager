@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.blue-gradient {
+    background: rgb(16, 130, 237);
+    background: -moz-linear-gradient(
+        49deg,
+        rgba(16, 130, 237, 1) 0%,
+        rgba(24, 101, 156, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        49deg,
+        rgba(16, 130, 237, 1) 0%,
+        rgba(24, 101, 156, 1) 100%
+    );
+    background: linear-gradient(
+        49deg,
+        rgba(16, 130, 237, 1) 0%,
+        rgba(24, 101, 156, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1082ed",endColorstr="#18659c",GradientType=1);
+}
+
+.p-box-shadow {
+    box-shadow: -3px 3px 15px rgb(221, 221, 221);
+}
