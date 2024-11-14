@@ -4,11 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-
-        <link rel="stylesheet" href="static/login_and_register/style/styles.css"/>
-        <link rel="stylesheet" href="static/global/style/global_class.css" />
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+        <link rel="stylesheet" href="static/global/style/global_class.css" />
+        <link rel="stylesheet" href="static/login_and_register/style/styles.css"/>
         <script>
             tailwind.config = {
                 theme: {
@@ -31,14 +30,15 @@
     <body>
         <main class="login-and-register-main flex justify-center items-center">
             <section class="login-and-register-form-content rounded-3xl p-box-shadow">
-                <div class="information-content blue-gradient" id="information-content-slid">
-                    <h1>Seja Bem-vindo</h1>
-                    <div class="button-content">
-                        <h3>você nao tem uma conta?</h3>
-                        <button class="button-toggle-information">
+                <div class="information-content blue-gradient flex flex-col justify-center items-center" id="information-content-slid">
+                    <h1 class="text-white text-6xl">Seja Bem-vindo</h1>
+                    <div class="button-content m-10 flex flex-col justify-center items-center">
+                        <h3 class="text-white text-2xl">você nao tem uma conta?</h3>
+                        <button class="button-toggle-information m-7 text-white py-3 px-10 text-2xl rounded-2xl border-2 border-white">
                             Cadastrar agora
                         </button>
                     </div>
+                    <img src="/static/login_and_register/img/login-image.png" alt="">
                 </div>
             </section>
         </main>
